@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
     input_str = modify_input_for_hill(input_str)
 
-    M = np.array([[17,17,5],[21,18,21],[2,2,19]])
+    M = np.array([[6,24,1],[13,16,10],[20,17,15]])
            
     encstr = hill_enc(M,input_str)
     print("\nENCRYPTED TEXT : " + encstr)
